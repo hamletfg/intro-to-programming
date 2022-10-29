@@ -1,0 +1,61 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #000000;
+  margin: 15px 0 15px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: regular;
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 200px;
+}
+
+input[type=submit] {
+  width: 165px;
+  background: #FFFFFF;
+  font-size: 15px;
+  width:200px;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align:top;
+  padding-left: 90px;
+}
+
+.content-section {
+  /* Center the form on the page */
+  width: 450px;
+  margin: 0 auto;
+  /* Form outline */
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
