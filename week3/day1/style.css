@@ -90,7 +90,12 @@ body {
 }
 
 .container {
-  max-width: 300px;
+  margin-top: 50px;
+}
+
+.name {
+  font-size:20px;
+  margin: 8px;
 }
 
 .card {
@@ -99,28 +104,29 @@ body {
   border: 2px solid #dbac4d;
   padding: 8px;
   float: left;
+  width: 300px
 }
 
-.name {
-  font-size:20px;
+.text-container {
+  margin: 12px;
 }
 
-.paragraph {
-
+.text-container p {
+  font-size: 15px;
 }
 
 .button-container {
-  
+  text-align: center; 
+  margin: 20px; 
 }
 
-.button {
-
+.btn {
+  background-color:#dbac4d;
+  color: white; 
+  padding: 5px 90px ;  
+  height: 
 }
 
 .button p {
   color: white;
-}
-
-.card h2 {
-
 }
