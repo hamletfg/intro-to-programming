@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #fcfae6;
+  font-family: helvetica;
+}
+
+#nav {
+  background-color: #dbac4d;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.logo {
+  float: left;
+  padding-left: 64px;
+}
+
+.link-container {
+  float: right;
+  padding-right: 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size:20px;
+  margin: 8px;
+}
+
+.card {
+  background-color: white;
+  margin: 10px;
+  border: 2px solid #dbac4d;
+  padding: 8px;
+  width: 300px
+}
+
+.text-container {
+  margin: 12px;
+}
+
+.text-container p {
+  font-size: 15px;
+}
+
+.button-container {
+  text-align: center; 
+  margin: 20px; 
+}
+
+.btn {
+  background-color:#dbac4d;
+  color: white; 
+  padding: 5px 90px ;  
+  height: 
+}
+
+.button p {
+  color: white;
+}
