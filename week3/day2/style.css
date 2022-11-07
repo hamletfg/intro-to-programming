@@ -56,7 +56,6 @@ body {
   background-color: #dbac4d;
   top: 0;
   width: 100%;
-  text-align: right;
   position: fixed;
   z-index: 2;
 }
